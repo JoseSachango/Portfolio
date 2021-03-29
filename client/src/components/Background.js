@@ -27,10 +27,11 @@ export default  function Background() {
     return(
         <>
             <Grid container xs={12} >
-                <Grid item xs={12}>
-                    <Paper style={{backgroundColor:"tomato",height:"600px"}} elevation={0}>
+                <Grid item xs={12} style={{backgroundColor:"tomato",height:"650px"}}>
+                        {/*
                         <img src={backgroundImg}  alt="background Image" />
-                    </Paper>
+                   
+                         */}
                 </Grid>
             </Grid>
         </>

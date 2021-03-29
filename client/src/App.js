@@ -3,6 +3,8 @@ import React, { Component, useState,useEffect,useRef } from "react";
 import "./App.css";
 import NavBar from "./components/Navbar"
 import Background from "./components/Background"
+import Content from "./components/ContentSection"
+import ProfileImg from "./components/ProfileImg"
 
 
 
@@ -24,6 +26,8 @@ function App() {
     <div className="App">
         <NavBar/>
         <Background/>
+        <Content />
+        <ProfileImg />
     </div>
   );
 }
