@@ -68,7 +68,7 @@ export default function NavBar() {
 
   return (
     <div className={classes.root} >
-      <AppBar position="static" style={{backgroundColor:"transparent",marginBottom:"-50px"}}>
+      <AppBar position="static" style={{backgroundColor:"transparent",marginBottom:"-300px"}}>
         <Toolbar >
           <IconButton
             edge="start"
