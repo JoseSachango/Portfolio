@@ -24,10 +24,11 @@ function App() {
 
   return (
     <div className="App">
-        <NavBar/>
-        <Background/>
-        <Content />
-        <ProfileImg />
+        <NavBar>
+        </NavBar>
+          <Background/>
+          <Content />
+          <ProfileImg />
     </div>
   );
 }
