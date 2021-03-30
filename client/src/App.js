@@ -5,6 +5,7 @@ import NavBar from "./components/Navbar"
 import Background from "./components/Background"
 import Content from "./components/ContentSection"
 import ProfileImg from "./components/ProfileImg"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 
@@ -23,13 +24,17 @@ function App() {
   },[])
 
   return (
-    <div className="App">
-        <NavBar>
-        </NavBar>
-          <Background/>
-          <Content />
-          <ProfileImg />
-    </div>
+    <Router>
+      <div className="App">
+          
+              <NavBar>
+              </NavBar>
+              <Background/>
+              <Content />
+              <ProfileImg />
+          
+      </div>
+    </Router>
   );
 }
 
